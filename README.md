@@ -4,6 +4,7 @@ Last Updated: 26/09/21
 ## Contents
 - Summary
 - Instructions
+- Project Files
 - Settings
 
 ### Summary:
@@ -70,3 +71,17 @@ This file contains a script that does the following when executed:
 This file contains rows of user profile data, including the user's key (unique ID), user's name and other user attributes. 
 
 <img src='https://user-images.githubusercontent.com/45374896/134810047-92818338-9a10-44e3-8b40-9d20b9ca3bbc.png' width="900">
+
+### Settings:
+
+All settings are stored in the index.js file. 
+
+The following are LaunchDarkly related settings, and relate to the LaunchDarkly project and Feature Flag being checked
+
+<img src='https://user-images.githubusercontent.com/45374896/134810164-30ad759e-cf65-44a4-a6db-1cae851ae241.png' width="900">
+
+The following are Segment related settings. The write_key setting indicates the location in Segment where the user profile data will be sent to. 
+
+<img src='https://user-images.githubusercontent.com/45374896/134810272-71d2c017-c524-477f-8813-e5eec3a9d7ce.png' width="900">
+
+
