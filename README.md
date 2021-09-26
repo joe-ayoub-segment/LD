@@ -69,4 +69,4 @@ This file contains a script that does the following when executed:
 
 This file contains rows of user profile data, including the user's key (unique ID), user's name and other user attributes. 
 
-<img src='https://user-images.githubusercontent.com/45374896/134810047-92818338-9a10-44e3-8b40-9d20b9ca3bbc.png' width="550">
+<img src='https://user-images.githubusercontent.com/45374896/134810047-92818338-9a10-44e3-8b40-9d20b9ca3bbc.png' width="900">
