@@ -85,7 +85,7 @@ The following are Segment related settings. The write_key setting indicates the 
 
 <img src='https://user-images.githubusercontent.com/45374896/134810272-71d2c017-c524-477f-8813-e5eec3a9d7ce.png' width="900">
 
-### Launch Darkly Project and feature flag settings: 
+### Launch Darkly Project and feature flag details: 
 
 Here's a screenshot of the LaunchDarkly project: 
 <img src='https://user-images.githubusercontent.com/45374896/134810323-9ac18113-0ee1-4eab-88ab-adb1c4aa7926.png' width="900">
@@ -97,4 +97,16 @@ Here's a screenshot of the user profiles loaded into LaunchDarkly
 Here's a screenshot of the feature flag rules for the eligible-for-migration flag. 
 
 <img src='https://user-images.githubusercontent.com/45374896/134810480-e777a633-8ef6-42d2-838e-6fb64522939e.png' width="900">
+
+### Segment project details:
+
+When a user is migrated, an API call is sent to Segment which loads the user's profile into Segment. 
+
+Here's a screenshot of the API call being received by Segment. 
+
+<img src='https://user-images.githubusercontent.com/45374896/134810548-0705fb45-e714-4b62-8f5b-a593716a0465.png' width="900">
+
+Here's a screenshot of the user's profile in Segment's user profile engine
+
+<img src='https://user-images.githubusercontent.com/45374896/134810695-f7de558f-8bb0-4c6a-8669-d2f77b8cc0e2.png' width="900">
 
