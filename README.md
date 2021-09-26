@@ -19,7 +19,9 @@ For demonstration purposes the source user profiles are stored in a pipe delimit
 
 ### Discussion:
 
-While I was able to create a mechanism to control which users get migrated from a flat file to Segment using a Feature Flag that looks at the user's attributes in LaunchDarkly. However this script has no way of knowing or checking if a user has already been migrated, so executing the script twice would result in the user being 'migrated' twice. If I had more time I'd look into fixing this issue. 
+The 'service' I decided to use as the Destination service for migration is called 'Segment'. [Segment](https://www.segment.com) is a Customer Data Platform which is capable of accepting user profile data and user analytics data, and can forward this data on to hundreds of different Marketing and Analytics tools. 
+
+I was able to create a mechanism to control which users get migrated from a flat file to Segment using a Feature Flag that looks at the user's attributes in LaunchDarkly. However this script has no way of knowing or checking if a user has already been migrated, so executing the script twice would result in the user being 'migrated' twice. If I had more time I'd look into fixing this issue. 
 
 Users can be migrated a single cohort at a time, with the cohort selection criteria being controled via a Feature Flag. Selecting a new cohort of users for migration is as simple as updating the eligible-for-migration Feature Flag selection criteria, then rerunning the script. 
 
