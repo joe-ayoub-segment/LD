@@ -25,7 +25,7 @@ Users can be migrated a single cohort at a time, with the cohort selection crite
 
 In the example below only users who have a CustomerClass = Trial will be migrated. 
 
-<img src='https://user-images.githubusercontent.com/45374896/134810924-d749bb70-98e3-4b85-aa06-0ab349a7251a.png' width="900">
+<img src='https://user-images.githubusercontent.com/45374896/134810924-d749bb70-98e3-4b85-aa06-0ab349a7251a.png' width="500">
 
 ### Instructions:
 
