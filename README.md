@@ -94,3 +94,7 @@ Here's a screenshot of the user profiles loaded into LaunchDarkly
 
 <img src='https://user-images.githubusercontent.com/45374896/134810432-44c11b27-ac76-45c0-85a2-e9383ac12926.png' width="900">
 
+Here's a screenshot of the feature flag rules for the eligible-for-migration flag. 
+
+<img src='https://user-images.githubusercontent.com/45374896/134810480-e777a633-8ef6-42d2-838e-6fb64522939e.png' width="900">
+
