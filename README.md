@@ -23,12 +23,21 @@ For demonstration purposes the source user profiles are stored in a pipe delimit
 #### 2. Clone the repo and install dependencies
 
 Clone this repo, then open a terminal in the LaunchDarkly_Migration_App folder. Run the following commands in order: 
-
+```
 npm install fs
-npm install launchdarkly-node-server-sdk
-npm install csv-parse   
-npm install analytics-node 
+```
 
+```
+npm install launchdarkly-node-server-sdk
+```
+
+```
+npm install csv-parse   
+```
+
+```
+npm install analytics-node 
+```
 #### 3. Run the migration script
 
 Run the following terminal command: 
