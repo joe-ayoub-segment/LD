@@ -7,7 +7,8 @@ Last Updated: 26/09/21
 - Instructions
 - Project Files
 - Settings
-- Launch Darkly Project and feature flag settings
+- Launch Darkly Project and feature flag details
+- Segment project details
 
 ### Summary:
 
