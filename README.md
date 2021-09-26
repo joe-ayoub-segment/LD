@@ -18,7 +18,7 @@ For demonstration purposes the source user profiles are stored in a pipe delimit
 
 #### 1. Install Node and NPM
 
-![See instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+[See instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 #### 2. Clone the repo and install dependencies
 
