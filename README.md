@@ -3,6 +3,7 @@ Last Updated: 26/09/21
 
 ## Contents
 - Summary
+- Discussion
 - Instructions
 - Project Files
 - Settings
@@ -15,6 +16,16 @@ This Node.js script demonstrates how user profile details could be migrated from
 A feature flag is used to specify which users should be migrated and which should not. The selection criteria are based on user attributes in Launch Darkly. 
 
 For demonstration purposes the source user profiles are stored in a pipe delimited CSV file, however in a more real world scenario this data could be read in from a database. Also, for demonstration purposes a user profile is considered migrated after the user profile has been loaded into Segment using a Segment identify() API call. This API call could be replaced by an API call to any other service. 
+
+### Discussion:
+
+While I was able to create a mechanism to control which users get migrated from a flat file to Segment using a Feature Flag that looks at the user's attributes in LaunchDarkly. However this script has no way of knowing or checking if a user has already been migrated, so executing the script twice would result in the user being 'migrated' twice. If I had more time I'd look into fixing this issue. 
+
+Users can be migrated a single cohort at a time, with the cohort selection criteria being controled via a Feature Flag. Selecting a new cohort of users for migration is as simple as updating the eligible-for-migration Feature Flag selection criteria, then rerunning the script. 
+
+In the example below only users who have a CustomerClass = Trial will be migrated. 
+
+<img src='https://user-images.githubusercontent.com/45374896/134810924-d749bb70-98e3-4b85-aa06-0ab349a7251a.png' width="900">
 
 ### Instructions:
 
