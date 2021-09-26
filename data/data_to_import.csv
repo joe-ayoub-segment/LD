@@ -1,0 +1,14 @@
+userId|CustomerName|CustomerClass|NumUsers|IsActiveLast30d|hasUsedfeatureX|hasUsedfeatureY|hasUsedfeatureZ
+00000|Val Kilmer|Trial|5|true|false|false|false
+22222|Adam West|Premium|100|true|true|false|true
+33333|Bananaman|Trial|5|false|true|false|true
+44444|Superted|Trial|5|true|false|true|false
+55555|Mary Poppins|Trial|5|true|false|true|true
+66666|Roy Keene|Trial|5|false|true|false|true
+77777|Roy Rogers|Enterprise|5|true|false|false|true
+88888|Winston Churchill|Trial|5|true|true|false|false
+99999|Ronald Ray Gun|Trial|5|false|false|true|false
+aaaaa|Brad Pitt|Enterprise|5|true|false|false|true
+bbbbb|Elon Musk|Premium|5|true|false|true|true
+ccccc|Michael Keaton|Enterprise|5|false|true|false|true
+ddddd|Hillary Clinton|Trial|5|true|false|true|false
