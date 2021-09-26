@@ -6,6 +6,7 @@ Last Updated: 26/09/21
 - Instructions
 - Project Files
 - Settings
+- Launch Darkly Project and feature flag settings
 
 ### Summary:
 
@@ -84,4 +85,12 @@ The following are Segment related settings. The write_key setting indicates the 
 
 <img src='https://user-images.githubusercontent.com/45374896/134810272-71d2c017-c524-477f-8813-e5eec3a9d7ce.png' width="900">
 
+### Launch Darkly Project and feature flag settings: 
+
+Here's a screenshot of the LaunchDarkly project: 
+<img src='https://user-images.githubusercontent.com/45374896/134810323-9ac18113-0ee1-4eab-88ab-adb1c4aa7926.png' width="900">
+
+Here's a screenshot of the user profiles loaded into LaunchDarkly
+
+<img src='https://user-images.githubusercontent.com/45374896/134810432-44c11b27-ac76-45c0-85a2-e9383ac12926.png' width="900">
 
