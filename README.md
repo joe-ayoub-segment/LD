@@ -64,6 +64,12 @@ Run the following terminal command:
 node index.js
 ```
 
+#### 4. Output
+
+The script will output logs indicating which users were migrated and which were not migrated
+
+<img src='https://user-images.githubusercontent.com/45374896/134811207-12c99238-3dc8-4d2c-8088-a2e7b96ba55c.png' width="900">
+
 ### Project files: 
 
 There are 2 project files. 
