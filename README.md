@@ -24,6 +24,10 @@ For demonstration purposes the source user profiles are stored in a pipe delimit
 
 Clone this repo, then open a terminal in the LaunchDarkly_Migration_App folder. Run the following commands in order: 
 ```
+npm init --yes
+```
+
+```
 npm install fs
 ```
 
