@@ -45,8 +45,9 @@ npm install analytics-node
 #### 3. Run the migration script
 
 Run the following terminal command: 
-
+```
 node index.js
+```
 
 ### Project files: 
 
