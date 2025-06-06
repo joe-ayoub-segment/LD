@@ -28,7 +28,7 @@ const SegmentSettings = {
 const LDSettings = {
 
   // Set sdkKey to your LaunchDarkly SDK key.
-  sdkKey : "sdk-16b8e5c9-73aa-42bb-955b-4d87a54ce68f",
+  sdkKey : "nothing-to-see-here",
  
   // LD feature flag which determins if a user is eligible for migration
   eligible_for_migration : "eligible-for-migration", 
